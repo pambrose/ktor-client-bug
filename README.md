@@ -1,10 +1,11 @@
-# Change of behavior on failure with the ktor client
+# Change of behavior on failure with ktor client 1.5.0
 
 The test program is [Main.kt](src/main/kotlin/Main.kt).
 
 The program makes two requests: the first is valid and the second is invalid.
 
 If you run it with the ktor client 1.4.3 you get:
+<br>
 
 ```
 19:01:38.476 INFO  [ApplicationEngineEnvironmentReloading.kt:135] - No ktor.deployment.watch patterns specified, automatic reload is not active [DefaultDispatcher-worker-2]
@@ -15,6 +16,7 @@ If you run it with the ktor client 1.4.3 you get:
 
 <br>
 However, if you change the ktor jar to 1.5.0 in gradle.properties you get:
+<br>
 
 ```
 19:03:03.678 INFO  [ApplicationEngineEnvironmentReloading.kt:148] - Autoreload is disabled because the development mode is off. [DefaultDispatcher-worker-1]
