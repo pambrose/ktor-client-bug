@@ -13,6 +13,7 @@ If you run it with the ktor client 1.4.3 you get:
 /bad: 404 Not Found
 ```
 
+<br>
 However, if you change the ktor jar to 1.5.0 in `gradle.properties` you get:
 
 ```
@@ -42,6 +43,6 @@ Exception in thread "main" io.ktor.client.features.ClientRequestException: Clien
 	at Main.main(Main.kt:46)
 ```
 
+<br>
 As you can see, the 1.5.0 jar throws an exception rather than reporting the failure via the `response.status` value. The
-1.5.0 release notes do not suggest this change in behavior is intentional. 
-
+1.5.0 release notes do not suggest this change in behavior is intentional.
