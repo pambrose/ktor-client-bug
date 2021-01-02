@@ -14,7 +14,7 @@ If you run it with the ktor client 1.4.3 you get:
 ```
 
 <br>
-However, if you change the ktor jar to 1.5.0 in `gradle.properties` you get:
+However, if you change the ktor jar to 1.5.0 in gradle.properties you get:
 
 ```
 19:03:03.678 INFO  [ApplicationEngineEnvironmentReloading.kt:148] - Autoreload is disabled because the development mode is off. [DefaultDispatcher-worker-1]
